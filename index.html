@@ -1,51 +1,47 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Soham's Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css">
-    <style>
-     
-    </style>
-  </head>
 
-  <body>
-    <!-- NAV -->
-    <nav>
-      <span class="nav-logo">SOHAM</span>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
-        <span></span><span></span><span></span>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soham's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <style>
 
-    <!-- HERO -->
-    <section id="home">
-      <div class="hero-inner">
-        <div class="hero-text">
-          <!-- <span class="tag">Available for opportunities</span> -->
-          <h1>
-            Hi, I'm <em>Soham</em><br />
+  </style>
+</head>
 
-            <h4>AIML Student <br />
+<body>
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">SOHAM</span>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <!-- <span class="tag">Available for opportunities</span> -->
+        <h1>
+          Hi, I'm <em>Soham</em><br />
+
+          <h4>AIML Student <br />
             Aspiring Full-Stack Developer & AI Engineer
           </h4>
 
@@ -54,328 +50,313 @@
             learning, and solving real-world problems.
           </p>
           <div class="hero-btns">
-            <a href="#" class="btn btn-primary"
-              ><i class="fa-solid fa-download"></i> Resume</a
-            >
-            <a href="#contact" class="btn btn-outline"
-              ><i class="fa-solid fa-paper-plane"></i> Contact Me</a
-            >
+            <a href="#" class="btn btn-primary"><i class="fa-solid fa-download"></i> Resume</a>
+            <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
           </div>
-        </div>
-        <div class="hero-img">
-          <!-- <div class="placeholder-avatar"><i class="fa-solid fa-user"></i></div> -->
-          <img src="profile-image.jpg" alt="profileimage" />
-        </div>
       </div>
-    </section>
+      <div class="hero-img">
+        <!-- <div class="placeholder-avatar"><i class="fa-solid fa-user"></i></div> -->
+        <img src="profile-image.jpg" alt="profileimage" />
+      </div>
+    </div>
+  </section>
 
-    <!-- ABOUT -->
-    <section id="about">
-      <div class="section-header">
-        <span class="section-label">Who I am</span>
-        <h2 class="section-title">About <span>Me</span></h2>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header">
+      <span class="section-label">Who I am</span>
+      <h2 class="section-title">About <span>Me</span></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-img">
+        <div class="placeholder-img">
+          <img src="about.jpg" alt="about" />
+        </div>
       </div>
-      <div class="about-grid">
-        <div class="about-img">
-          <div class="placeholder-img">
-            <img src="about.jpg" alt="about" />
+      <div class="about-text">
+        <p>
+          I’m Soham, a second-year engineering student specializing in AI & ML. I enjoy building projects, exploring new
+          technologies, and improving my problem-solving skills as a developer.
+        </p>
+
+        <div class="stat-row">
+          <div class="stat-box">
+            <div class="num">8.10</div>
+            <div class="lbl">Cgpa</div>
+          </div>
+          <div class="stat-box">
+            <div class="num">92%</div>
+            <div class="lbl">10th Score</div>
+          </div>
+          <div class="stat-box">
+            <div class="num">66%</div>
+            <div class="lbl">12th</div>
           </div>
         </div>
-        <div class="about-text">
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-header">
+      <span class="section-label">My journey</span>
+      <h2 class="section-title"><span>Education</span></h2>
+    </div>
+    <div class="edu-list">
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+        <div class="edu-body">
+          <span class="badge">10th Grade</span>
+          <h3>Shri Hari Vidhyala Eng Med School, Ugarkhurd</h3>
           <p>
-            I’m Soham, a second-year engineering student specializing in AI & ML. I enjoy building projects, exploring new technologies, and improving my problem-solving skills as a developer.
+            Secured an impressive 92.64%
           </p>
+        </div>
+      </div>
 
-          <div class="stat-row">
-            <div class="stat-box">
-              <div class="num">8.10</div>
-              <div class="lbl">Cgpa</div>
+      <div class="edu-card">
+        <div class="edu-icon">
+          <i class="fa-solid fa-building-columns"></i>
+        </div>
+        <div class="edu-body">
+          <span class="badge">12th Grade</span>
+          <h3>Kishore Career Point, Sangli</h3>
+          <p>
+            Scored 66% in 12th
+          </p>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="edu-body">
+          <span class="badge">B.Tech — Ongoing</span>
+          <h3>DKTE Textile and Engineering Institute</h3>
+          <p>
+            Currently pursuing a B.Tech degree, specialising in AI/ML
+          <p>Cgpa : 8.10</p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header">
+      <span class="section-label">What I know</span>
+      <h2 class="section-title">My <span>Skills</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-terminal"></i> Languages</h3>
+        <div class="skill-pills">
+          <span class="pill">Java</span>
+          <span class="pill">python</span>
+          <span class="pill">javascript</span>
+          <span class="pill">c++</span>
+          <span class="pill">C</span>
+          <span class="pill">html</span>
+          <span class="pill">css</span>
+          <span class="pill">bootstrap</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-wrench"></i> Tools & Dev</h3>
+        <div class="skill-pills">
+          <span class="pill">Git & GitHub</span>
+          <span class="pill">VS Code</span>
+          <span class="pill">Antigravity</span>
+          <span class="pill">claude</span>
+          <span class="pill">Jyupter</span>
+          <span class="pill">chatgpt</span>
+          <span class="pill">Figma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="section-label">Get in touch</span>
+      <h2 class="section-title">Contact <span>Me</span></h2>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Let's build something together</h3>
+        <div class="contact-links">
+          <a href="mailto:sohampachakatte@gmail.com" class="c-link">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="details">
+              <div class="label">Email</div>
+              <div class="value">sohampachakatte@gmail.com</div>
             </div>
-            <div class="stat-box">
-              <div class="num">92%</div>
-              <div class="lbl">10th Score</div>
+          </a>
+          <a href="https://github.com/sohampachakatte" target="_blank" class="c-link">
+            <div class="icon"><i class="fa-brands fa-github"></i></div>
+            <div class="details">
+              <div class="label">GitHub</div>
+              <div class="value">github.com/sohampachakatte</div>
             </div>
-            <div class="stat-box">
-              <div class="num">66%</div>
-              <div class="lbl">12th</div>
+          </a>
+          <a href="https://www.linkedin.com/in/soham-pachakatte-024707328" target="_blank" class="c-link">
+            <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="details">
+              <div class="label">LinkedIn</div>
+              <div class="value">LinkedIn.com / sohampachakatte
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
-    </section>
 
-    <!-- EDUCATION -->
-    <section id="education">
-      <div class="section-header">
-        <span class="section-label">My journey</span>
-        <h2 class="section-title"><span>Education</span></h2>
-      </div>
-      <div class="edu-list">
-        <div class="edu-card">
-          <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
-          <div class="edu-body">
-            <span class="badge">10th Grade</span>
-            <h3>Shri Hari Vidhyala Eng Med School, Ugarkhurd</h3>
-            <p>
-              Secured an impressive 92.64%
-            </p>
-          </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="your name" required />
         </div>
-
-        <div class="edu-card">
-          <div class="edu-icon">
-            <i class="fa-solid fa-building-columns"></i>
-          </div>
-          <div class="edu-body">
-            <span class="badge">12th Grade</span>
-            <h3>Kishore Career Point, Sangli</h3>
-            <p>
-              Scored 66% in 12th
-            </p>
-          </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="you@example.com" required />
         </div>
-
-        <div class="edu-card">
-          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-          <div class="edu-body">
-            <span class="badge">B.Tech — Ongoing</span>
-            <h3>DKTE Textile and Engineering Institute</h3>
-            <p>
-              Currently pursuing a B.Tech degree, specialising in AI/ML
-              <p>Cgpa : 8.10</p>
-            </p>
-          </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Tell me about yourself" required></textarea>
         </div>
-      </div>
-    </section>
+        <button type="submit" class="btn btn-primary" style="width: fit-content">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </section>
 
-    <!-- SKILLS -->
-    <section id="skills">
-      <div class="section-header">
-        <span class="section-label">What I know</span>
-        <h2 class="section-title">My <span>Skills</span></h2>
-      </div>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <h3><i class="fa-solid fa-terminal"></i> Languages</h3>
-          <div class="skill-pills">
-            <span class="pill">Java</span>
-            <span class="pill">python</span>
-            <span class="pill">javascript</span>
-            <span class="pill">c++</span>
-            <span class="pill">C</span>
-            <span class="pill">html</span>
-            <span class="pill">css</span>
-            <span class="pill">bootstrap</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <h3><i class="fa-solid fa-wrench"></i> Tools & Dev</h3>
-          <div class="skill-pills">
-            <span class="pill">Git & GitHub</span>
-            <span class="pill">VS Code</span>
-            <span class="pill">Antigravity</span>
-            <span class="pill">claude</span>
-            <span class="pill">Jyupter</span>
-            <span class="pill">chatgpt</span>
-            <span class="pill">Figma</span>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- FOOTER -->
+  <footer>
+    <span class="logo">SOHAM</span>
+    <p>© 2026 Soham. Crafted with passion.</p>
+    <div class="social-icons">
+      <a href="https://github.com/sohampachakatte"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/soham-pachakatte-024707328"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:sohampachakatte@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </footer>
 
-    <!-- CONTACT -->
-    <section id="contact">
-      <div class="section-header">
-        <span class="section-label">Get in touch</span>
-        <h2 class="section-title">Contact <span>Me</span></h2>
-      </div>
-      <div class="contact-wrapper">
-        <div class="contact-info">
-          <h3>Let's build something together</h3>
-          <div class="contact-links">
-            <a href="mailto:sohampachakatte@gmail.com" class="c-link">
-              <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-              <div class="details">
-                <div class="label">Email</div>
-                <div class="value">sohampachakatte@gmail.com</div>
-              </div>
-            </a>
-            <a href="https://github.com/sohampachakatte" target="_blank" class="c-link">
-              <div class="icon"><i class="fa-brands fa-github"></i></div>
-              <div class="details">
-                <div class="label">GitHub</div>
-                <div class="value">github.com/soham</div>
-              </div>
-            </a>
-            <a href="https://www.linkedin.com/in/soham-pachakatte-024707328" target="_blank" class="c-link">
-              <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
-              <div class="details">
-                <div class="label">LinkedIn</div>
-                <div class="value">
-                  www.linkedin.com/in/soham-pachakatte-024707328
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
+  <!-- EmailJS SDK -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    const EMAILJS_PUBLIC_KEY = "L3nWPnDVs564eJyEK";
+    const EMAILJS_SERVICE_ID = "service_k9zvgd5";
+    const EMAILJS_TEMPLATE_ID = "template_zir7rsi";
 
-        <form class="contact-form" onsubmit="handleSubmit(event)">
-          <div class="form-group">
-            <label>Your Name</label>
-            <input type="text" placeholder="your name" required />
-          </div>
-          <div class="form-group">
-            <label>Email Address</label>
-            <input type="email" placeholder="you@example.com" required />
-          </div>
-          <div class="form-group">
-            <label>Message</label>
-            <textarea
-              placeholder="Tell me about yourself"
-              required
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            class="btn btn-primary"
-            style="width: fit-content"
-          >
-            <i class="fa-solid fa-paper-plane"></i> Send Message
-          </button>
-        </form>
-      </div>
-    </section>
+    emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
 
-    <!-- FOOTER -->
-    <footer>
-      <span class="logo">SOHAM</span>
-      <p>© 2026 Soham. Crafted with passion.</p>
-      <div class="social-icons">
-        <a href="https://github.com/sohampachakatte"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/soham-pachakatte-024707328"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a href="mailto:sohampachakatte@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-      </div>
-    </footer>
+    function handleSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const btn = form.querySelector("button[type=submit]");
 
-    <!-- EmailJS SDK -->
-    <script
-      data-cfasync="false"
-      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script>
-      const EMAILJS_PUBLIC_KEY = "L3nWPnDVs564eJyEK";
-      const EMAILJS_SERVICE_ID = "service_k9zvgd5";
-      const EMAILJS_TEMPLATE_ID = "template_zir7rsi";
+      const name = form.querySelector('input[type="text"]').value.trim();
+      const email = form.querySelector('input[type="email"]').value.trim();
+      const message = form.querySelector("textarea").value.trim();
 
-      emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+      // Loading state
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending…';
 
-      function handleSubmit(e) {
-        e.preventDefault();
-        const form = e.target;
-        const btn = form.querySelector("button[type=submit]");
-
-        const name = form.querySelector('input[type="text"]').value.trim();
-        const email = form.querySelector('input[type="email"]').value.trim();
-        const message = form.querySelector("textarea").value.trim();
-
-        // Loading state
-        btn.disabled = true;
-        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending…';
-
-        emailjs
-          .send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
-            from_name: name,
-            from_email: email,
-            message: message,
-          })
-          .then(() => {
-            btn.innerHTML = '<i class="fa-solid fa-check"></i> Sent!';
-            btn.style.background = "var(--accent2)";
-            form.reset();
-            setTimeout(() => {
-              btn.innerHTML =
-                '<i class="fa-solid fa-paper-plane"></i> Send Message';
-              btn.style.background = "";
-              btn.disabled = false;
-            }, 4000);
-          })
-          .catch((err) => {
-            console.error("EmailJS error:", err);
+      emailjs
+        .send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+          from_name: name,
+          from_email: email,
+          message: message,
+        })
+        .then(() => {
+          btn.innerHTML = '<i class="fa-solid fa-check"></i> Sent!';
+          btn.style.background = "var(--accent2)";
+          form.reset();
+          setTimeout(() => {
             btn.innerHTML =
-              '<i class="fa-solid fa-triangle-exclamation"></i> Failed — try again';
-            btn.style.background = "#c0392b";
+              '<i class="fa-solid fa-paper-plane"></i> Send Message';
+            btn.style.background = "";
             btn.disabled = false;
-            setTimeout(() => {
-              btn.innerHTML =
-                '<i class="fa-solid fa-paper-plane"></i> Send Message';
-              btn.style.background = "";
-            }, 4000);
-          });
-      }
-
-      // ── Navbar 
-      function toggleMenu() {
-        document.getElementById("navLinks").classList.toggle("open");
-      }
-
-      document.querySelectorAll(".nav-links a").forEach((link) => {
-        link.addEventListener("click", () => {
-          document.getElementById("navLinks").classList.remove("open");
+          }, 4000);
+        })
+        .catch((err) => {
+          console.error("EmailJS error:", err);
+          btn.innerHTML =
+            '<i class="fa-solid fa-triangle-exclamation"></i> Failed — try again';
+          btn.style.background = "#c0392b";
+          btn.disabled = false;
+          setTimeout(() => {
+            btn.innerHTML =
+              '<i class="fa-solid fa-paper-plane"></i> Send Message';
+            btn.style.background = "";
+          }, 4000);
         });
+    }
+
+    // ── Navbar 
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("open");
+    }
+
+    document.querySelectorAll(".nav-links a").forEach((link) => {
+      link.addEventListener("click", () => {
+        document.getElementById("navLinks").classList.remove("open");
       });
+    });
 
-      // ── Animate skill bars on scroll
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((e) => {
-            if (e.isIntersecting) {
-              e.target.querySelectorAll(".bar-fill").forEach((bar) => {
-                bar.style.animation = "none";
-                bar.offsetHeight; // reflow
-                bar.style.width = bar.dataset.width || bar.style.width;
-              });
-            }
-          });
-        },
-        { threshold: 0.3 },
-      );
-      document.querySelectorAll("#skills").forEach((s) => observer.observe(s));
-
-      // ── Visitor Counter ────────────────────────────────────────────────────
-      (function () {
-        const KEY = "soham_portfolio_visits";
-        const SESSION_KEY = "soham_portfolio_session";
-
-        // Only count once per browser session
-        let count = parseInt(localStorage.getItem(KEY) || "0", 10);
-        if (!sessionStorage.getItem(SESSION_KEY)) {
-          count += 1;
-          localStorage.setItem(KEY, count);
-          sessionStorage.setItem(SESSION_KEY, "1");
-        }
-
-        // Animate the number counting up
-        const el = document.getElementById("visitorCount");
-        if (el) {
-          let start = Math.max(0, count - 30);
-          const duration = 1200;
-          const startTime = performance.now();
-          function tick(now) {
-            const elapsed = now - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-            const eased = 1 - Math.pow(1 - progress, 3);
-            el.textContent = Math.floor(start + (count - start) * eased);
-            if (progress < 1) requestAnimationFrame(tick);
-            else el.textContent = count;
+    // ── Animate skill bars on scroll
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.querySelectorAll(".bar-fill").forEach((bar) => {
+              bar.style.animation = "none";
+              bar.offsetHeight; // reflow
+              bar.style.width = bar.dataset.width || bar.style.width;
+            });
           }
-          // Wait until footer is visible or just delay slightly
-          setTimeout(() => requestAnimationFrame(tick), 400);
+        });
+      },
+      { threshold: 0.3 },
+    );
+    document.querySelectorAll("#skills").forEach((s) => observer.observe(s));
+
+    // ── Visitor Counter ────────────────────────────────────────────────────
+    (function () {
+      const KEY = "soham_portfolio_visits";
+      const SESSION_KEY = "soham_portfolio_session";
+
+      // Only count once per browser session
+      let count = parseInt(localStorage.getItem(KEY) || "0", 10);
+      if (!sessionStorage.getItem(SESSION_KEY)) {
+        count += 1;
+        localStorage.setItem(KEY, count);
+        sessionStorage.setItem(SESSION_KEY, "1");
+      }
+
+      // Animate the number counting up
+      const el = document.getElementById("visitorCount");
+      if (el) {
+        let start = Math.max(0, count - 30);
+        const duration = 1200;
+        const startTime = performance.now();
+        function tick(now) {
+          const elapsed = now - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          el.textContent = Math.floor(start + (count - start) * eased);
+          if (progress < 1) requestAnimationFrame(tick);
+          else el.textContent = count;
         }
-      })();
-    </script>
-  </body>
+        // Wait until footer is visible or just delay slightly
+        setTimeout(() => requestAnimationFrame(tick), 400);
+      }
+    })();
+  </script>
+</body>
+
 </html>
